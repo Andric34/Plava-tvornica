@@ -8,12 +8,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="bootstrap-4.5.3-dist\css\bootstrap.min.css">
     </head>
     <body>
-       <div class="wrapper">
-           <div class="main">
-               <div class="slideshow-container">
-                   <div class="first-row">
+       <div class="wrapper container">
+           <div class="main row">
+               <div class="slideshow-container col-8">
+                   <div class="first-row row" >
                     <div class="slide">
                         <img class = "slides"src="Assets\slider-image-1.jpg" alt="">
                     </div>
@@ -30,7 +31,7 @@
                         <img class = "slides"src="Assets\slider-image-5.jpg" alt="">
                     </div>
                    </div>
-                   <div class="second-row">
+                   <div class="second-row row " >
                        <div class="second-row-container">
                         <div class="slide">
                             <img class = "slides"src="Assets\slider-image-6.jpg" alt="">
@@ -45,18 +46,17 @@
                             <img class = "slides"src="Assets\slider-image-9.jpg" alt="">
                         </div>
                        </div>
-                    
                     <div class="slider-arrows">
-                        <div class="arrow">
-                            <img class = "" src="Assets\arrow-blue-left.png" alt="">
+                        <div class="arrow" onclick="change_arrow_left()" id = "arrow-left">
+                            <img class = "arrow-img" src="Assets/arrow-blue-left.png" alt="" id="left" >
                         </div>
-                        <div class="arrow">
-                            <img class = "" src="Assets\arrow-blue-right.png" alt="">
+                        <div class="arrow" onclick="change_arrow_right()" id = "arrow-right">
+                            <img class = "arrow-img" src="Assets/arrow-blue-right.png" alt=""id="right">
                         </div>
                     </div>
                    </div>
                </div>
-               <div class="description">
+               <div class="description col-4">
                    <div class="header">
                     <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit</b>
                    </div>
@@ -71,7 +71,7 @@
                </div>
            </div>
        </div>
-        
+
         <script src="JavaScript.js" async defer></script>
     </body>
 </html>

@@ -1,34 +1,33 @@
 .wrapper{
-    width: 90%;
-    
     height: 600px;
 }
 .main {
     margin: auto;
     margin-top: 150px;
     height: 400px;
-    width: 100%;
+    
 }
 .slideshow-container{
     float: left;
-    width: 78.68%;
     height: 400px;
-    overflow-x: visible;
-    overflow-y: hidden;
+    
 }
 .first-row{
     height: 50%;
 }
+
 .second-row{
-    height: 50%;
+    height:50%;
+
 }
 .second-row-container {
     float: left;
+
 }
 .slide{
+    right: 0px;
     float: right;
     height: 190px;
-    width: 100%;
     padding: 5px;
 }
 .slides{
@@ -47,21 +46,27 @@
     border-radius: 10%;
     height: 50px;
     width: 50px;
-    margin:15px 0px 15px 0px;
+    margin:15px 0px 15px 20px;
+}
+.arrow-img {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
 }
 .description{
     margin-top: 15px;
-    padding-left: 15px;
     float: right;
     width: 20%;
     height: 100%;
 }
 .header{
+    padding-left: 15px;
     font-size: 20px;
     color: blue;
     margin-bottom: 20px;
 }
 .text{
+    padding-left: 15px;
     font-size: 16px;
 
 }
